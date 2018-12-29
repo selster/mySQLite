@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Version">Version</string>
+    <string name="hello">aSQLiteManager</string>
+    <string name="app_name">aSQLiteManager</string>
+    <string name="AboutHeader">Om aSQLiteManager</string>
+    <string name="AboutText">Andsens SQLite manager. Håndter alle dine Android databaser</string>
+    <string name="WWW">Tjek for opdateringer her:\nhttp://asqlitemanager.sourceforge.net</string>
+    <string name="AAA">Læs mere om aSQLiteManager her:\nhttp://aaa.andsen.dk/aSQLiteManager.html</string>
+    <string name="MAIL">Kommentarer velkomne på:\nandroid41cv@gmail.com</string>
+    <string name="OpdenDB">Åbn Database</string>
+    <string name="About">Om</string>
+    <string name="Location">Sti</string>
+    <string name="View">Se</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nej</string>
+    <string name="DBTables">Tabeller</string>
+    <string name="DBViews">Views</string>
+    <string name="DBIndexs">Index</string>
+    <string name="DBTable">Tabel</string>
+    <string name="DBView">View</string>
+    <string name="DBIndex">Index</string>
+    <string name="DBField">Felt</string>
+    <string name="DBData">Data</string>
+    <string name="DBSQL">SQL</string>
+    <string name="OpenDatabase">Åbn database</string>
+    <string name="NoSDCard">Intet SDCard</string>
+    <string name="OK">OK</string>
+    <string name="Path">Sti:</string>
+    <string name="Database">Database</string>
+    <string name="DBQuery">Query</string>
+    <string name="Run">Kør</string>
+    <string name="DBFields">Felter</string>
+    <string name="PgUp">PgUp</string>
+    <string name="PgDn">PgDn</string>
+    <string name="Option">Options</string>
+    <string name="Help">Hjælp</string>
+    <string name="HelpHeader">aSQLiteManager hjælp</string>
+    <string name="PageSize">Side størrelse</string>
+    <string name="PressMenuSQL">Tryk menu for at bygge SQL</string>
+    <string name="PageSizeText">Antal liner der skal hentes ved bladring</string>
+    <string name="Open">Åbn</string>
+    <string name="NoResult">Intet resultat</string>
+    <string name="HelpText">
+      Besøg aSQLiteMagers\'s hjemmeside på:
+      \nhttp://aaa.andsen.dk/aSQLiteManager.html
+      \nFor at få en total liste over de funktioner som aSQLiteManager understytter.
+      \n\nSend gerne bug reporter, kommentarer og ønsker til ny funktionalitet til:
+      \nandroid41cv@gmail.com
+
+      \n\nåbn databaser fra aSQLiteManager og fil managers
+      \nList tables, views and indexes
+      \nDatabase info
+      \nVis data fra tables og views
+      \nFields in the table viewer are colored based on the type of the field. As SQLite doesn\'t has field type validation the field type can differ from field type given with the create table statement
+      \nData editing and deleting form table browser from Edit label at each row
+      \nData entry add record from label on title at data browser
+      \nExecute any SQL including \'Drop\' / \'Create\' statements
+      \nSupport for BLOB fields (except during editing)
+      \nSupport Begin transaction, Commit and Rollback
+      \nCopy any cell to the clip board by pressing it
+      \nSupport table names and field names with spaces
+      \nStore all executed statements in the opened database in a table called aSQLiteManager (by default turned off)
+      \nSelect SQL history from query form
+      \nExport database to SQL script and restore databases from script
+      \nDump table from table view to file named Database.Table.sql - can be loaded by execute file as script
+      \nExport of query results to ASCII file
+      \nExecute SQL scripts, full script or single lines
+      \nRemember recently opened databases for quick access to often used databases
+      \nWorks from aShell
+      \n\nMartin
+    </string>
+    <string name="NewDB">Ny database</string>
+    <string name="NewDBSDCard">Ny database på SDCard</string>
+    <string name="NewDBPath">Sti til ny database</string>
+    <string name="AutoIndex">SQLite gemmer ikke auto index definitioner</string>
+    <string name="Message">Besked</string>
+    <string name="Error">Fejl</string>
+    <string name="NoFileName">Skal mindst give et filnavn</string>
+    <string name="DBQueryType">Query Type</string>
+    <string name="OnClickedMess">Du klikkede på denne SQLite database:</string>
+    <string name="OnClickedOpen">Åbn databasen med\naSQLiteManager</string>
+     <string name="RecentSQL">Nylige SQL</string>
+    <string name="Transaction">Transaktioner</string>
+    <string name="BeginTransaction">Begin transaction</string>
+    <string name="Commit">Commit</string>
+    <string name="Rollback">Rollback</string>
+    <string name="InTransaction">I transaktion</string>
+    <string name="UpdatesCommitted">Opdateringer committed</string>
+    <string name="UpdatesRolledback">Opdateringer rolled back</string>
+    <string name="NothingToRolledback">Intet at rolledback</string>
+    <string name="NothingToCommit">Intet at committe</string>
+    <string name="IsNotADatabase">er ikke en database</string>
+    <string name="Export">Exporter database</string>
+    <string name="Restore">Reetabler database</string>
+    <string name="Cancel">Fortryd</string>
+    <string name="ExportData">Eksport</string>
+    <string name="NoExportToRestore">Ingen elport at reetablere</string>
+    <string name="AlwaysJustOpen">Åbn altid database</string>
+    <string name="Reset">Nulstil</string>
+    <string name="OpenSQL">Åbn SQL fil</string>
+    <string name="Working">Arbejder</string>
+    <string name="ReadingScript">Læser script</string>
+    <string name="ExecuteStatement">Eksekver sql</string>
+    <string name="MustNotBeEmpty">Må ikke være tomt</string>
+    <string name="ShowAtStartUp">Vis velkommen ved opstart</string>
+    <string name="Welcome">Velkommen til aSQLiteManager</string>
+    <string name="DumpTable">Dump tabel</string>
+    <string name="TableDumpep">Tabel %s dumped</string>
+    <string name="DumpFailed">Ups! dump mislykkedes</string>
+    <string name="ErrorNothingToExport">Intet at eksportere!</string>
+    <string name="DataExported">Data eksporteret</string>
+    <string name="DataBaseExported">Database exporteret</string>
+    <string name="DataBaseRestored">Database reetableret</string>
+    <string name="Patience">Tålmodighed - kan tage en rum tid</string>
+    <string name="Recently">Nyligt åbnet</string>
+    <string name="RecentlyTxt">Antal nyligt åbnet databaser der skal gemmes</string>
+    <string name="ROSystemTable">sqlite_master is a read only system table</string>
+    <string name="CouldNotCreate">Could not create:</string>
+    <string name="SystemFolder">System mappe</string>
+    <string name="SystemFolderText">Hvis din telefon er rootet så kan du redigere system databaser med aSQLiteManager v.h.a. aShell</string>
+    <string name="DBInfo">DB Info</string>
+    <string name="DatabaseInfo">Database info.</string>
+    <string name="DatabaseExists">findes allerede!</string>
+		<string name="RateMsg">
+			Du har nu brugt aSQLiteManager i over en uge og mindst 10 gange.
+			\nHvis du kan lide at bruge programmet, så støt det med en god bedømmelse.
+			\nTak!</string>
+		<string name="Rate">Rate</string>
+		<string name="Later">Jeg gør det næste gang</string>
+		<string name="NoThanks">Har gjort det</string>
+		<string name="EditDeleteRow">Rediger eller slet posten #</string>
+		<string name="Delete">Slet</string>
+		<string name="CopiedToClipboard">Tekst kopieret til clip board</string>
+		<string name="InsertNewRow">Indsæt ny post</string>
+		<string name="EditRow">Rediger post</string>
+		<string name="Edit">Rediger</string>
+		<string name="New">Ny</string>
+		<string name="First">Første</string>
+		<string name="Last">Sidste</string>
+		<string name="Filter">Filter</string>
+		<string name="EnterWhere">Indtast where clause (uden where)</string>
+		<string name="StrangeErr">Hvis du kan reproducere denne fejl så send mig databasen og en forklaring på hvoda du kan fremprovokere den ;-)</string>
+
+  	<string name="WelcomeMsg">aSQLiteManager er en gratis open source
+      SQLite manager / front end til Android enheder.
+      \n\nNyt i denne version:
+      \n\nBug fixes
+      \nGoto første / sidste side i tabel vieweren
+      \nSimpel filter option i tabel vieweren
+      \nHoved skærm nu altid i portræt mode 
+      \n\nDu kan redigere system databaser med aShell (beta) på rooted telefoner
+      med aSQLiteManager. Du finder aShell her:
+      \nhttp://market.android.com/search?q=pub:Andsen
+      \nHar du problemer med aShell, så fortæl mig om dem. Jeg har kun adgang til
+      få Android telefoner og har derfor svært ved at test ordentligt.
+      \n\nSe en liste over alle features på:
+      \naaa.andsen.dk/aSQLiteManager.html
+      \n\nKommentarer, bug rapporter og ønsker om ny funktionalitet velkommen.
+      send mig en mail på:
+      \nandroid41cv@gmail.com
+      \n\nTak til dem af jer der fortæller mig om bug i stedet for bare at brokke sig ;-) 
+      \n\nHåber du kan lide app\'en!
+      \n\nMartin
+      </string>
+</resources>

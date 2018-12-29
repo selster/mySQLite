@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abdu.mysqlmanager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".asqlitemanager.aSQLiteManager">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".utils.FilePicker"></activity>
+        <activity android:name=".utils.NewFilePicker"></activity>
+        <activity android:name=".asqlitemanager.DBViewer"></activity>
+        <activity android:name=".asqlitemanager.TableViewer"></activity>
+        <!--<activity android:name=".DataGridOld"></activity>-->
+        <activity android:name=".asqlitemanager.Help"></activity>
+        <activity android:name=".asqlitemanager.Prefs"></activity>
+        <activity android:name=".asqlitemanager.QueryViewer"></activity>
+        <activity android:name=".asqlitemanager.SQLViewer"></activity>
+        <!--<activity android:name=".ProgressBarTest"></activity>-->
+        <!--
+          Don't know why but by repeating the OpenOnClick intend in these two
+          different ways aSQLiteManager can be opened from FileManager (Adao Team)
+          and OI File Manager but not from "Simplest File Manager"
+        -->
+        <activity
+            android:name=".asqlitemanager.OpenOnClick"
+            android:icon="@drawable/sqlite_icon"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter
+                android:icon="@drawable/sqlite_icon"
+                android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.sqlite"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.sqlite"
+                    android:scheme="content" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.sqlite"
+                    android:scheme="http" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.db"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.db"
+                    android:scheme="content" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.db"
+                    android:scheme="http" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".asqlitemanager.OpenOnClick2"
+            android:icon="@drawable/sqlite_icon"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter
+                android:icon="@drawable/sqlite_icon"
+                android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.sqlite"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.sqlite"
+                    android:scheme="http" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.db"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.db"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
